@@ -1,0 +1,289 @@
+* {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+  font-family: "Poppins", sans-serif;
+  background-attachment: fixed;
+}
+
+/* Navbar */
+nav {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.8393732492997199) 0%,
+    rgba(22, 22, 152, 0.6881127450980392) 35%,
+    rgba(45, 133, 222, 0.9458158263305322) 100%
+  );
+}
+
+.nav-link {
+  font-weight: 400 !important;
+  color: white !important;
+}
+
+.navBtn {
+  border-radius: 12px !important;
+}
+.navBtn:hover {
+  cursor: pointer;
+}
+
+/* Intro Section */
+.introSection {
+  height: 97vh !important;
+  background: url(./img/overlay-bg.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.selfProtrait {
+  border-radius: 50% !important;
+  width: 200px;
+}
+
+.bottommotion {
+  position: absolute;
+  bottom: 5px;
+  left: 48%;
+  text-align: center;
+}
+
+i.fas {
+  font-size: 40px;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.introRow {
+  padding-top: 25% !important;
+}
+
+.introTitle {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .introText {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .introExtraText {
+    font-size: 14px;
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .introText {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .introExtraText {
+    font-size: 14px;
+    text-align: left !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .introText {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .introExtraText {
+    font-size: 14px;
+    text-align: left !important;
+  }
+}
+
+.introCard {
+  border-radius: 20px !important;
+  border: 0.1px solid rgba(0, 0, 0, 0.05) !important;
+  position: relative;
+  box-shadow: 0 25px 50px rgba (0, 0, 0, 0.2) !important;
+  background: transparent !important;
+  backdrop-filter: blur(35px) !important;
+  -webkit-backdrop-filter: blur(35px) !important;
+}
+
+.arrowDownIcon {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#2980b9, #6dd5fa, #ffffff) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .introRow {
+    padding-top: 15% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .introRow {
+    padding-top: 10% !important;
+  }
+}
+
+/* Section One - My Work */
+.sectionOne,
+.workSpacer {
+  background: url(./img/y-so-serious.png);
+}
+
+.myWorkText {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#da4171, #242d86) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.flt {
+  border-radius: 20px !important;
+}
+
+.customPadding {
+  padding: 0 !important;
+  margin-left: 5px !important;
+}
+
+.customCol {
+  border-radius: 25px !important;
+  /*? Frosted Glass */
+  position: relative !important;
+  box-shadow: 0 25px 50px rgba (0, 0, 0, 0.2) !important;
+  background: transparent !important;
+  backdrop-filter: blur(2px) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+}
+
+.appstoreLink {
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+.introName {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+/* Section Two - SKILLS */
+.sectionTwo {
+  background-color: rgb(29, 29, 29);
+}
+
+.skillsCard {
+  border-radius: 20px !important;
+  /* border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  /* box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05) !important; */
+  /* position: relative !important;
+  box-shadow: 0 25px 50px rgba (0, 0, 0, 0.2) !important;
+  background: transparent !important;
+  backdrop-filter: blur(6px) !important;  */
+  background-color: #307bad59 !important;
+}
+
+.lastTextSkills {
+  text-align: center;
+}
+
+.githubBtn {
+  font-weight: 500 !important;
+  border-radius: 18px !important;
+  font-size: 18px !important;
+}
+
+/* Section Three - Hire Me */
+.sectionThree {
+  /* background-color: rgb(88, 86, 214); */
+  background-color: rgb(29, 29, 29);
+}
+
+.form-control {
+  border-radius: 12px !important;
+  padding: 8px 15px !important;
+}
+
+.form-control:focus,
+button:focus,
+.navBtn:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+
+.contactCard {
+  border-radius: 24px !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: 0 8px 20px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.contactBtn {
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+}
+
+input {
+  background-color: rgba(128, 128, 128, 0.08) !important;
+  border: none !important;
+}
+
+.sectionThreeLocationText {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+  .customCenter {
+    text-align: center;
+    padding-top: 15px !important;
+  }
+}
+
+/* Section Four - EDUCATION */
+.sectionfour {
+  background-image: url(/img/cool-bg.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+.customCard {
+  border-radius: 20px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  /* box-shadow: 0 15px 20px rgba(0, 0, 0, 0.05) !important; */
+  position: relative !important;
+  box-shadow: 0 25px 50px rgba (0, 0, 0, 0.2) !important;
+  background: transparent !important;
+  backdrop-filter: blur(6px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
+}
+.customText {
+  font-weight: 600 !important;
+}
+
+.educationTitle {
+  font-weight: 600;
+  background: -webkit-linear-gradient(#e96443, #904e95) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.card-img-top {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.fa-hand-sparkles {
+  color: blue;
+  transform: rotate(-10deg);
+}
