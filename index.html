@@ -18,15 +18,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <title>Zawar</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-light sticky-top shadow">
       <div class="container-fluid">
-        <a class="navbar-brand mx-auto" href="#">Zawar Mehmood</a>
+        <a class="navbar-brand mx-auto" href="#" data-scroll>Zawar Mehmood</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,17 +41,17 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#mywork">My Work</a>
+              <a class="nav-link" data-scroll href="#mywork">My Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" data-scroll href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" data-scroll href="#education">Education</a>
             </li>
           </ul>
           <form class="form-inline">
-            <a href="#hireme" class="btn btn-light px-4 py-0 navBtn" style="font-weight: 500;">Hire Me</a>
+            <a href="#hireme" data-scroll class="btn btn-light px-4 py-0 navBtn" style="font-weight: 500;">Hire Me</a>
         </form>
         </div>
       </div>
@@ -132,12 +132,6 @@
                     <div class="col customPadding ms-3">
                         <img src="/img/flutter/fscalc/6.5in-Screen-1.jpg" alt="" class="img-fluid flt">
                     </div>
-                    <!-- <div class="col customPadding">
-                        <img src="/img/flutter/fscalc/6.5in-Screen-2.jpg" alt="" class="img-fluid flt">
-                    </div>
-                    <div class="col customPadding">
-                        <img src="/img/flutter/fscalc/6.5in-Screen-3.jpg" alt="" class="img-fluid flt">
-                    </div> -->
                     <div class="col customPadding ms-2">
                         <img src="/img/flutter/fscalc/6.5in-Screen-4.jpg" alt="" class="img-fluid flt">
                     </div>
@@ -174,17 +168,17 @@
                 </div>
               </p>
             </div>
-            <div class="col ps-5">
+            <div class="col offset-1">
               <div class="fw-semi text-info">
                 January 2019-April 2019
-              </div>
+              </div><br>
               <p class="fw-bold">Front-End Web Developer</p>
               <p class="">CYA.live, Toronto ON</p>
             </div>
             <div class="col">
               <div class="fw-semi text-info">
                 June 2020-Present
-              </div>
+              </div><br>
               <p class="fw-bold">Front-End Web & Flutter Developer</p>
               <p class="">Self-employed</p>
             </div>
@@ -248,7 +242,6 @@
         <div class="row">
           <div class="col">
             <div class="card customCard p-2 m-2">
-              <!-- <img src="img/education/centennial-college-logo.jpg" class="card-img-top img-fluid" alt=""> -->
               <div class="card-body">
                 <h5 class="card-title">Centennial College</h5>
                 <p class="card-text customText">
@@ -261,7 +254,6 @@
           </div>
           <div class="col">
             <div class="card customCard p-2 m-2">
-              <!-- <img src="img/education/Webp.net-resizeimage.jpg" class="card-img-top img-fluid" alt=""> -->
               <div class="card-body">
                 <h5 class="card-title">Trent University</h5>
                 <p class="card-text">
@@ -274,7 +266,6 @@
           </div>
           <div class="col">
             <div class="card customCard p-2 m-2">
-              <!-- <img src="img/education/centennial-college-logo.jpg" class="card-img-top img-fluid" alt=""> -->
               <div class="card-body">
                 <h5 class="card-title">Centennial College</h5>
                 <p class="card-text">
@@ -287,7 +278,38 @@
           </div>
         </div>
         <div class="row">
-          <!-- TODO: Relevant courses for development -->
+          <div class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
+            <div class="card customCard p-2 m-2">
+              <div class="card-body">
+                <h5 class="card-title">Software Engineering Technology</h5>
+                <p class="card-text">
+                  <h6 class="fw-bold">Relevant Courses</h6>
+                  <div class="row">
+                    <div class="col">
+                      <i class="fas fa-angle-double-right"></i> Programming 1-3<br>
+                      <i class="fas fa-angle-double-right"></i> Java EE Programming<br>
+                      <i class="fas fa-angle-double-right"></i> Web Interface design
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-angle-double-right"></i> Client-Side Web Development<br>
+                      <i class="fas fa-angle-double-right"></i> Advanced Database Concepts<br>
+                      <i class="fas fa-angle-double-right"></i> Web Application Development
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-angle-double-right"></i> Object Oriented Software Engineering<br>
+                      <i class="fas fa-angle-double-right"></i> Mobile Application Development<br>
+                      <i class="fas fa-angle-double-right"></i> Software Testing & Quality
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-angle-double-right"></i> Software Development Project 1 & 2 - Capstone<br>
+                      <i class="fas fa-angle-double-right"></i> API Engineering & Cloud Computing<br>
+                      <i class="fas fa-angle-double-right"></i> Emerging Technologies
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -303,15 +325,34 @@
           <div class="col-sm-12 col-md-6 col-lg-6 offset-md-1 offset-lg-1">
             <div class="card contactCard">
                 <div class="card-body">
-                    <!-- <h5 class="card-title">Contact Me</h5> -->
                     <p class="card-text">
-                        <form action="POST" data-netlify="true">
-                            <div class="mb-3 mx-2"><input id="my-input" class="form-control" type="text" name="name" placeholder="Name"></div>
-                            <div class="mb-3 mx-2"><input id="my-input" class="form-control" type="text" name="email" placeholder="Email"></div>
-                            <div class="mb-3 mx-2"><input id="my-input" class="form-control" type="text" name="company" placeholder="Company"></div>
-                            <div class="mb-3 mx-2"><input id="my-input" class="form-control" type="text" name="message" placeholder="Message"></div>
+                        <form action="mailto:zawar92@hotmail.com" class="needs-validation" novalidate method="POST" enctype="text/plain">
+                            <div class="mb-3 mx-2">
+                              <input id="my-input" class="form-control" type="text" name="name" placeholder="Name" required>
+                              <div class="invalid-feedback ps-2">
+                                Please provide your name.
+                              </div>
+                            </div>
+                            <div class="mb-3 mx-2">
+                              <input id="my-input" class="form-control" type="text" name="email" placeholder="Email" required>
+                              <div class="invalid-feedback ps-2">
+                                Please provide your email.
+                              </div>
+                            </div>
+                            <div class="mb-3 mx-2">
+                              <input id="my-input" class="form-control" type="text" name="company" placeholder="Company" required>
+                              <div class="invalid-feedback ps-2">
+                                Please provide your company name.
+                              </div>
+                            </div>
+                            <div class="mb-3 mx-2">
+                              <input id="my-input" class="form-control" type="text" name="message" placeholder="Message" required>
+                              <div class="invalid-feedback ps-2">
+                                Please provide a message.
+                              </div>
+                            </div>
                             <div class="d-grid gap-2 mx-2">
-                              <button class="btn btn-primary contactBtn" type="button">Contact</button>
+                              <button class="btn btn-primary contactBtn" type="submit">Contact</button>
                             </div>
                         </form>
                     </p>
@@ -334,5 +375,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/index.js"></script>
+
   </body>
 </html>

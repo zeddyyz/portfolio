@@ -287,3 +287,7 @@ input {
   color: blue;
   transform: rotate(-10deg);
 }
+
+.fa-angle-double-right {
+  font-size: 18px !important;
+}
